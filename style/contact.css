@@ -105,6 +105,18 @@ section.contact {
     align-items: center;
 }
 
+form input[type=submit] {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.3rem;
+}
+
+form input:focus, form textarea:focus {
+    outline: black auto 1px;
+}
+
 form {
     margin: 2rem 0;
 }
@@ -173,6 +185,10 @@ footer nav a {
     header nav img {
         justify-self: flex-start;
         margin-bottom: 2rem;
+    }
+
+    h1 {
+        margin-top: 1rem;
     }
 
     form input, form textarea {
