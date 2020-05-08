@@ -220,6 +220,10 @@ footer nav a {
         width: 100%;
     }
 
+    header nav a {
+        font-size: 1.5rem;
+    }
+
     .top-content {
         flex-direction: column;
         width: 100%;
@@ -264,7 +268,6 @@ footer nav a {
     }
 
     .bottom-content .text-container {
-        width: 40%;
         margin: 2rem 0;
     }
 
@@ -346,6 +349,6 @@ footer nav a {
 
     footer nav a {
         margin: 0.3rem 0;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 }
