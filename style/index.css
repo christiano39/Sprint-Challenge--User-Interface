@@ -278,3 +278,74 @@ footer nav a {
         font-size: 1.3rem;
     }
 }
+
+@media (max-width: 500px) {
+    header nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header nav a {
+        margin: 0.3rem 0;
+        font-size: 1.6rem;
+    }
+
+    header nav img {
+        justify-self: flex-start;
+        margin-bottom: 2rem;
+    }
+
+    .top-content {
+        align-items: center;
+    }
+
+    .top-content h2 {
+        font-size: 1.7rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .top-content p {
+        font-size: 1.2rem;
+    }
+
+    .middle-content {
+        text-align: center;
+        border-bottom: 0;
+    }
+
+    .middle-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .middle-content .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .middle-content .boxes .box {
+        width: 50%;
+    }
+
+    .bottom-content .text-container {
+        width: 90%;
+    }
+
+    .bottom-content .text-container h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .bottom-content .text-container  {
+        font-size: 1.2rem;
+    }
+
+    footer nav {
+        flex-direction: column;
+    }
+
+    footer nav a {
+        margin: 0.3rem 0;
+        font-size: 1.4rem;
+    }
+}
